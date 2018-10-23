@@ -1,0 +1,25 @@
+{
+  "legoCreation": [
+    {
+      "creation": "T-rex",
+      "color": "1",
+      "shape": "Dino",
+      "creator": "Me",
+      "id": 1
+    },
+    {
+      "creation": "T-rex",
+      "color": "4",
+      "shape": "Dino",
+      "creator": "Mike",
+      "id": 2
+    },
+    {
+      "creation": "T-rex",
+      "color": "4",
+      "shape": "Dino",
+      "creator": "Mike",
+      "id": 3
+    }
+  ]
+}
