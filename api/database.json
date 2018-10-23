@@ -20,6 +20,13 @@
       "shape": "Dino",
       "creator": "Mike",
       "id": 3
+    },
+    {
+      "creation": "House",
+      "color": "2",
+      "shape": "Building",
+      "creator": "Joni",
+      "id": 4
     }
   ]
 }

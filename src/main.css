@@ -1,0 +1,61 @@
+
+body {
+  background-image: url(images/legowallpaper.jpg);
+  background-color: rgb(159, 180, 236);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.lego__form {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 20vh auto;
+  width: 40vw;
+  background-color: rgb(64,86,195, .9);
+  color: rgb(255,250,242);
+  padding: 40px;
+  border-radius: 20%;
+  opacity: .95;
+  font-weight: bold;
+}
+.lego__form>h1{
+  align-self: center;
+  justify-self: center;
+  margin: 15px 0 40px 0;
+  padding: 2px;
+  border-bottom: solid 2px rgb(255,250,242);
+  color:rgb(255,250,242);
+  border-radius: 5px;
+}
+.lego__form--container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.lego__form--labels {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-end;
+}
+
+.lego__form--inputs {
+  display: flex;
+  flex-flow: column wrap;
+}
+.lego__save {
+  height: 2em;
+  width: 30vw;
+  align-self: center;
+  margin: 15px;
+  border-radius: 20px;
+}
+
+.lego__form--input {
+  margin: 5px 2px;
+}
+
+.lego__form--label {
+  margin: 5px 2px;
+}
