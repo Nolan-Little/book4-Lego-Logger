@@ -1,5 +1,7 @@
 let saveBtn = document.querySelector("#lego__save")
 let form = document.querySelector(".lego__form")
+let userMsg = document.querySelector(".form__response")
+let response;
 
 new Object
 
@@ -18,6 +20,8 @@ saveBtn.addEventListener("click", event => {
   console.log(newLego.creator)
     if (newLego.creation !== "" && newLego.color !== "1" && newLego.shape !== "" && newLego.creator !== "" ) {
       API.postLego(newLego)
+      response = `<p>Thank you for saving your ${newLego.creation} creation!</p>`
+      userMsg.innerHTML = response
       form.reset()
     }
 })

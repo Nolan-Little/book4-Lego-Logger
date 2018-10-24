@@ -8,8 +8,5 @@ const API = {
       },
       body: JSON.stringify(legoToSave)
     })
-    .then((lego) => {
-      console.log(lego);
-    })
   }
 }

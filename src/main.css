@@ -50,6 +50,14 @@ body {
   align-self: center;
   margin: 15px;
   border-radius: 20px;
+  transition-duration: 200ms
+}
+
+.lego__save:hover {
+  background-color:black;
+  color: white;
+  transform: scale(1.2);
+  transition-duration: 200ms;
 }
 
 .lego__form--input {
@@ -58,4 +66,15 @@ body {
 
 .lego__form--label {
   margin: 5px 2px;
+}
+
+.form__response {
+  overflow-wrap: break-word;
+  font-size: 1.6em;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+p.form__response {
+  margin-bottom: 5px;
 }
