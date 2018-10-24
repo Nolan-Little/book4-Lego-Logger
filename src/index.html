@@ -19,10 +19,10 @@
         <label class="lego__form--label" for="lego__color">Color of Creation:</label>
       </div>
       <div class="lego__form--inputs">
-          <input class="lego__form--input" id="lego__creator" name="lego__creator" type="text">
-          <input class="lego__form--input" id="lego__creation" name="lego__creation" type="text">
-          <input class="lego__form--input" id="lego__shape" name="lego__shape" type="text">
-          <select class="lego__form--input" id="lego__color" name="lego__color">
+          <input required class="lego__form--input" id="lego__creator" name="lego__creator" type="text">
+          <input required class="lego__form--input" id="lego__creation" name="lego__creation" type="text">
+          <input required class="lego__form--input" id="lego__shape" name="lego__shape" type="text">
+          <select required class="lego__form--input" id="lego__color" name="lego__color">
             <option value="1">Select A Color</option>
             <option value="2">Blue</option>
             <option value="3">Red</option>
@@ -32,7 +32,7 @@
           </select>
       </div>
     </div>
-    <button class="btn lego__save" id="lego__save">Save Lego Creation</button>
+    <button type="submit" class="btn lego__save" id="lego__save">Save Lego Creation</button>
   </form>
   <script src="scripts/postCreation.js"></script>
   <script src="scripts/saveCreation.js"></script>

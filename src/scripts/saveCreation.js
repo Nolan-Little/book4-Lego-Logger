@@ -15,7 +15,9 @@ saveBtn.addEventListener("click", event => {
   newLego.color = color
   newLego.shape = shape
   newLego.creator = creator
-  console.log(newLego)
-  API.postLego(newLego)
-  form.reset()
+  console.log(newLego.creator)
+    if (newLego.creation !== "" && newLego.color !== "1" && newLego.shape !== "" && newLego.creator !== "" ) {
+      API.postLego(newLego)
+      form.reset()
+    }
 })
